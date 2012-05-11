@@ -12,6 +12,20 @@ qmake && make
 #OSX:
 ./make.sh
 
+Usage
+-----
+Click the 'open folder' picture in the layers pane to the right to add layers.
+Layers will, by default, be shown in the order they were loaded.
+Type in the text box in the mappings panel to define mappings (these re-arrange layer orders).
+For example:
+"0<1" put layer "0" under layer "1".
+"c<a&b" put layer "c" under layers "a" and "b"
+"a<b<d" put layer "a" under layer "b" and "d"; put layer "b" under layer "d"
+
+Once you've added a mapping, select it for painting by pressing the brush button near it. You paint with the left mouse button. You can "unpaint" with shift-left-button. Mouse wheel and shift-mouse-wheel change your brush size and softness (as do the sliders at the top).
+
+The 'save' button in the misc panel saves your work -- both the final composite and the mappings.
+
 Bugs
 ----
 This prototype often works for me on Linux; I have experienced occasional crashes on OSX and haven't been able to get it to work on Windows. Contributions of bug fixes are welcome!
