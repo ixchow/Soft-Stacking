@@ -1,0 +1,22 @@
+Soft Stacking
+-------------
+This research prototype allows one to paint with different layer orderings.
+
+For more information about the algorithms used, see:
+http://graphics.cs.cmu.edu/projects/soft-stacking/
+
+Building
+--------
+#Linux:
+qmake && make
+#OSX:
+./make.sh
+
+Bugs
+----
+This prototype often works for me on Linux; I have experienced occasional crashes on OSX and haven't been able to get it to work on Windows. Contributions of bug fixes are welcome!
+
+
+Who owns this?
+--------------
+I (Jim McCann / jmccann@cs.cmu.edu) wrote this code as a graduate student at Carnegie Mellon University. I hereby release it into the public domain.
