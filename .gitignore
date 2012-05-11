@@ -1,0 +1,14 @@
+.*.swp
+*.o
+Makefile
+moc_*
+sparse.app
+sparse
+compose_test
+*~
+X-*/*
+Makefile.Debug
+Makefile.Release
+debug
+release
+vc100.pdb
